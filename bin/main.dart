@@ -7,7 +7,7 @@ void main(List<String> arguments) {
     return; // Exit the program if no arguments are provided
   }
 
-  // Loop through each name passed as a command-line argument
+  // Looping through each name passed as a command-line argument
   for (String name in arguments) {
     // Capitalizing the first letter of the name and keep the rest lowercase
     String capitalized =
